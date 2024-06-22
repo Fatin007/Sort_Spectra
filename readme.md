@@ -4,7 +4,7 @@ This project is a Java Swing-based sorting visualizer that allows you to visuali
 
 ## Important Message
 
-*When you run the application, you will receive an important message. Spread that message.*
+### When you run the application, you will receive an important message. Spread that message. ###
 
 ## Features
 
