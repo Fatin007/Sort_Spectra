@@ -25,6 +25,8 @@ To run the sorting visualizer, follow these steps:
 5. Adjust the speed control to your preference.
 6. Click the "Let's Go!" button to begin the visualization.
 
+![image](https://github.com/Fatin007/Sort_Spectra/assets/119798146/84c730d9-7e25-4a8c-b368-c058e3d2d673)
+
 ## Supported Sorting Algorithms
 
 - Bubble Sort
