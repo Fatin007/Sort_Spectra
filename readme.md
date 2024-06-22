@@ -31,3 +31,8 @@ To run the sorting visualizer, follow these steps:
 - Selection Sort
 - Insertion Sort
 - Merge Sort (will be added soon)
+
+
+## Video Overview
+
+Youtube: https://youtu.be/Xu5xLVjfJJ0
