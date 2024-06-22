@@ -25,7 +25,7 @@ package com.fatin.sortSpectra;
  
      public Frame() {
         super("Sort Spectra");
-        logo = new ImageIcon(getClass().getResource("logo.png"));
+        logo = new ImageIcon(getClass().getResource("resources/logo.png"));
         setIconImage(logo.getImage());
  
         start = new JButton("Let's Go!");
@@ -44,7 +44,7 @@ package com.fatin.sortSpectra;
         graph.setLayout(new GridBagLayout());
         mainPanel.setLayout(new BorderLayout());
 
-        c.insets = new Insets(0, 3, 0, 3);
+        c.insets = new Insets(0, 2, 0, 2);
         c.anchor = GridBagConstraints.SOUTH;
 
         start.addActionListener(new ActionListener() {
@@ -160,7 +160,7 @@ package com.fatin.sortSpectra;
         gbc.fill = GridBagConstraints.BOTH;
         // gbc.insets = new Insets(10, 10, 10, 10);
 
-        ImageIcon imageIcon = new ImageIcon(getClass().getResource("splash.png"));
+        ImageIcon imageIcon = new ImageIcon(getClass().getResource("resources/splash.png"));
         JLabel imageLabel = new JLabel(imageIcon);
         imageLabel.setBackground(new Color(0x1B1A55));
         imageLabel.setOpaque(true);
@@ -207,20 +207,22 @@ package com.fatin.sortSpectra;
         for (int i = 0; i < Sort_Spectra.cnt; i++) {
             bar[i] = new JPanel();
             bar[i].setPreferredSize(new Dimension(Sort_Spectra.barWidth, arr[i] * heightConst));
-            bar[i].setBackground(new Color(0x535C91));
+            bar[i].setBackground(new Color(0x1679AB));
             graph.add(bar[i], c);
         }
         repaint();
         validate();
     }
 
-    public void finalDraw(Integer[] arr) {
+    public void finalDraw(Integer[] arr, int j) {
         graph.removeAll();
         for (int i = 0; i < bar.length; i++) {
             bar[i] = new JPanel();
             bar[i].setPreferredSize(new Dimension(Sort_Spectra.barWidth, arr[i] * heightConst));
-            bar[i].setBackground(new Color(0x535C91));
+            if(i<=j )bar[i].setBackground(new Color(0x535C91));
+            else bar[i].setBackground(new Color(0x1679AB));
             graph.add(bar[i], c);
+
         }
         repaint();
         validate();
@@ -236,7 +238,7 @@ package com.fatin.sortSpectra;
             } else if (i == red) {
                 bar[i].setBackground(new Color(0xA13333));
             } else {
-                bar[i].setBackground(new Color(0x535C91));
+                bar[i].setBackground(new Color(0x1679AB));
             }
             graph.add(bar[i], c);
         }

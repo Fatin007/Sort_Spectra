@@ -33,10 +33,8 @@ public class Sort_Spectra {
     
         public static void startSort(String type){
             if (sortingThread == null || isSorting==false){
-    
                 createArr();
                 isSorting = true;
-    
                 switch(type){
                     case "Bubble Sort":
                         sortingThread = new Thread(new BubbleSort(arr, frame));
@@ -54,11 +52,8 @@ public class Sort_Spectra {
                         isSorting = false;
                         return;
                 }
-    
                 sortingThread.start();
-    
             }
-    
         }
     
     }

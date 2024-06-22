@@ -5,6 +5,7 @@ This project is a Java Swing-based sorting visualizer that allows you to visuali
 ## Important Message
 
 ### When you run the application, you will receive an important message. Spread that message. ###
+![Screenshot 2024-06-22 202528](https://github.com/Fatin007/Sort_Spectra/assets/119798146/d601499b-a887-4105-a5f8-85920020f897)
 
 ## Features
 

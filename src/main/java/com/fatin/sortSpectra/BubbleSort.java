@@ -16,15 +16,15 @@ public class BubbleSort implements Runnable{
 
     public void run() {
         int temp = 0;
-        boolean swapped = false;
+        boolean flg = false;
         for(int i = 0; i<arr.length-1; i++){
-            swapped = false;
+            flg = false;
             for(int j = 1; j<arr.length-i; j++){
                 if (arr[j-1]> arr[j]){
                     temp = arr[j-1];
                     arr[j-1] = arr[j];
                     arr[j]= temp;
-                    swapped = true;
+                    flg = true;
                 }
                 frame.reDraw(arr, j, j+1);
                 try {
@@ -33,9 +33,16 @@ public class BubbleSort implements Runnable{
                     e.printStackTrace();
                 }
             }
-            if (!swapped) break;
+            if (!flg) break;
         }
-        frame.finalDraw(arr);
+        for(int i = 0; i<arr.length; i++){
+            frame.finalDraw(arr, i);
+            try {
+                Thread.sleep(50);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+        }
         Sort_Spectra.isSorting=false;
     }
 }
