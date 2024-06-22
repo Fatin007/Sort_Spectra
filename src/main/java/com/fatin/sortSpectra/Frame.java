@@ -28,7 +28,7 @@ package com.fatin.sortSpectra;
         logo = new ImageIcon(getClass().getResource("logo.png"));
         setIconImage(logo.getImage());
  
-        start = new JButton("Let's go!");
+        start = new JButton("Let's Go!");
         sidebar = new JPanel();
         graph = new JPanel();
         mainPanel = new JPanel();

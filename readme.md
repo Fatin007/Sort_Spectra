@@ -22,25 +22,11 @@ To run the sorting visualizer, follow these steps:
 3. Build and run the project.
 4. Select a sorting algorithm from the available options.
 5. Adjust the speed control to your preference.
-6. Click the "Start" button to begin the visualization.
+6. Click the "Let's Go!" button to begin the visualization.
 
 ## Supported Sorting Algorithms
 
 - Bubble Sort
 - Selection Sort
 - Insertion Sort
-- Merge Sort
-- Quick Sort
-- Heap Sort
-- Radix Sort
-- Shell Sort
-- and more...
-
-## Contributing
-
-Contributions are welcome! If you would like to contribute to this project, please follow these guidelines:
-
-1. Fork the repository.
-2. Create a new branch for your feature or bug fix.
-3. Commit your changes and push to your branch.
-4. Submit a pull request with a detailed description of your changes.
+- Merge Sort (will be added soon)
