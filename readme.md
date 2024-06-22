@@ -2,9 +2,13 @@
 
 This project is a Java Swing-based sorting visualizer that allows you to visualize various sorting algorithms in action. It provides a graphical representation of the sorting process, making it easier to understand and analyze the algorithms.
 
+## Important Message
+
+*When you run the application, you will receive an important message. Spread that message.*
+
 ## Features
 
-- Visualize sorting algorithms such as Bubble Sort, Selection Sort, Insertion Sort, Merge Sort, Quick Sort, and more.
+- Visualize sorting algorithms such as Bubble Sort, Selection Sort, Insertion Sort, Merge Sort (will be added soon).
 - Adjustable speed control to observe the sorting process at different speeds.
 - Random array generation for testing and demonstration purposes.
 - User-friendly interface with intuitive controls.
