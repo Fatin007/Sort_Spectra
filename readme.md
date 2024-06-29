@@ -1,4 +1,4 @@
-# Sorting Visualizer
+# Sort Spectra
 
 This project is a Java Swing-based sorting visualizer that allows you to visualize various sorting algorithms in action. It provides a graphical representation of the sorting process, making it easier to understand and analyze the algorithms.
 
